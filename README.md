@@ -1,37 +1,24 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* This style sets the width of all images to 100%: */
+img {
+  width: 100%;
+}
+</style>
+</head>
+<body>
 
-You can use the [editor on GitHub](https://github.com/nananasiri/test2/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+<h2>Width/Height Attributes or Style?</h2>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<p>The first image uses the width attribute (set to 128 pixels), but the style in the head section overrides it, and sets the width to 100%.</p>
 
-### Markdown
+<img src="html5.gif" alt="HTML5 Icon" width="128" height="128">
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<p>The second image uses the style attribute to set the width to 128 pixels, this will not be overridden by the style in the head section:</p>
 
-```markdown
-Syntax highlighted code block
+<img src="html5.gif" alt="HTML5 Icon" style="width:128px;height:128px;">
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/nananasiri/test2/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</body>
+</html>
